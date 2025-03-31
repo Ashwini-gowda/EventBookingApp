@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project SetUp
+* ruby version - 3.2.2
+* rails version - 8.0.2
 
-Things you may want to cover:
+To install all gems use this
+  * bundle install
+    
+- create table in the run this command
+  - rake db:migrate
+  
+- sidekiq for background job sending
+- JWT secreate for customer and event organizaert type
+- Set smtp creds in the application.yml file
 
-* Ruby version
+- To start the server
+  - rails s
 
-* System dependencies
+- Access the apis using postman service
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
