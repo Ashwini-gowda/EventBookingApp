@@ -1,0 +1,6 @@
+<p>Dear <%= @booking.customer.name %>,</p>
+<p>Your booking for <strong><%= @booking.event.name %></strong> is confirmed!</p>
+<p>Ticket: <%= @booking.ticket.ticket_type %></p>
+<p>Event Date: <%= @booking.event.date %></p>
+<p>Venue: <%= @booking.event.venue %></p>
+<p>Thank you for booking with us!</p>
